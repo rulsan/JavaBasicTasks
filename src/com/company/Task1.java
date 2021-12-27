@@ -12,8 +12,8 @@ public class Task1 {
     private int minPositivePos;
 
     public Task1(){
-        this.minPositive = 100;
-        this.maxNegative = -100;
+        this.minPositive = Integer.MAX_VALUE;
+        this.maxNegative = Integer.MIN_VALUE;
     }
 
     public int[] swapIntByLoop(int @NotNull [] listInt) {
